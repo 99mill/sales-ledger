@@ -1,0 +1,43 @@
+.side-bar {
+    width: 300px;
+    height: 100vh;
+    /* position: fixed; */
+    background-color: #F6F6F6;
+    float: left;
+    padding-top: 100px;
+    /* z-index: ; */
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}
+
+ul {
+    padding: 0 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.filter-header {
+    padding: 20px 0 0 60px;
+    font-weight: 500;
+    color: #CFCFCF;
+}
+
+.filter-title {
+    padding: 0 20px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #CFCFCF;
+}
+
+.side-bar>ul>li>form {
+    padding-left: 20px;
+}
+
+label {
+    color: #3FA879;
+}
+
+.filter-param {
+    margin-right: 10px;
+}

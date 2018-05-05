@@ -1,0 +1,53 @@
+.deck-container {
+    margin: 100px 80px;
+}
+
+.card {
+    width: 280px;
+    height: 200px;
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 40px;
+    transition: .2s ease;
+    display: inline-block;
+}
+
+.card:hover {
+    transform: translateY(-3px) translateX(3px);
+    box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.2);
+}
+
+.blend {
+    color: #4DCC93;
+    margin-bottom: 0px;
+}
+
+.details {
+    width: 50%;
+    display: inline-block;
+}
+
+.details>h4 {
+    font-weight: 500;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.right-details {
+    float: right;
+}
+
+.lifebar-container {
+    height: 10px;
+    width: 100%;
+    background-color: #CFCFCF;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.lifebar {
+    height: 10px;
+    width: 77%;
+    background-color: #4DCC93;
+    border-radius: 5px;
+}

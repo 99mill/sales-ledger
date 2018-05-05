@@ -1,0 +1,11 @@
+<div class="navbar" >
+  <img src="./../../assets/icons/banking.svg" class="sales-icon">
+  <h1 id="title" >{{ title }}</h1>
+  <ul>
+    <li *ngFor="let item of menuItems; last as last" [ngClass]="{ 'lrg-nav-btn' : last }">
+      <a href="{{ item.url }}" >
+        <p>{{ item.label }}</p>
+      </a>
+    </li>
+  </ul>
+</div>
